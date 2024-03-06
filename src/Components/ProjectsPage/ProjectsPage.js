@@ -5,6 +5,10 @@ import { useParams } from "react-router-dom";
 const ProjectPage = ({ projects }) => {
   const { id } = useParams();
 
+  if (!projects) {
+    return <div>Could not find Project</div>;
+  }
+
   const projectId = parseInt(id);
 
   const project = projects.find((project) => project.id === projectId);

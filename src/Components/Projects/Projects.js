@@ -33,6 +33,7 @@ import TPAbout from "../../Images/TP-About.png";
 import TPDetails from "../../Images/TP-Details.png";
 import TPHome from "../../Images/TP-Home.png";
 import TPPostJob from "../../Images/TP-Postjob.png";
+import ProjectPage from "../ProjectsPage/ProjectsPage";
 const Projects = () => {
   const projects = [
     {

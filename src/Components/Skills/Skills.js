@@ -51,6 +51,12 @@ function Skills() {
           <div class="skill-box">
             <p>Firebase</p>
           </div>
+          <div class="skill-box">
+            <p>Github</p>
+          </div>
+          <div class="skill-box">
+            <p>Teamwork</p>
+          </div>
         </div>
       </motion.div>
     </div>
