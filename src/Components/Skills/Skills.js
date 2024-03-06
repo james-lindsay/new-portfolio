@@ -1,6 +1,5 @@
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
-import React from "react";
 import "./Skills.scss";
 
 function Skills() {
