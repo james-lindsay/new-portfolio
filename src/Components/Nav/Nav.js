@@ -10,11 +10,11 @@ function Nav() {
           <a href="#home">Home</a>
         </li>
         <li className="navbar-item">
-          <a href="#about">Projects</a>
+          <a href="#Projects">Projects</a>
         </li>
         <Link to="cv">
           <li className="navbar-item">
-            <a href="#contact">CV</a>
+            <a href="#CV">CV</a>
           </li>
         </Link>
       </ul>

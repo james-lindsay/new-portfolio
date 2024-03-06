@@ -21,17 +21,19 @@ const About = () => {
           </p>
         </div>
       </section>
-      <section className="contact">
-        <a href="https://github.com/james-lindsay">
-          <img className="contact__icon" src={github} alt="GitHub" />
-        </a>
-        <a href="https://www.linkedin.com/in/james-lindsay1/">
-          <img className="contact__icon" src={linkedin} alt="LinkedIn" />
-        </a>
-        <a href="mailto:jameslindsay2220@gmail.com">
-          <img className="contact__icon" src={gmail} alt="Gmail" />
-        </a>
-      </section>
+      <div className="contact__container">
+        <section className="contact">
+          <a href="https://github.com/james-lindsay">
+            <img className="contact__icon" src={github} alt="GitHub" />
+          </a>
+          <a href="https://www.linkedin.com/in/james-lindsay1/">
+            <img className="contact__icon" src={linkedin} alt="LinkedIn" />
+          </a>
+          <a href="mailto:jameslindsay2220@gmail.com">
+            <img className="contact__icon" src={gmail} alt="Gmail" />
+          </a>
+        </section>
+      </div>
     </>
   );
 };
