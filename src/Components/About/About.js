@@ -2,6 +2,8 @@ import "./About.scss";
 import github from "../../Images/github-mark-white.png";
 import linkedin from "../../Images/LI.png";
 import gmail from "../../Images/Gmail.jpg";
+import Skills from "../Skills/Skills";
+import Projects from "../Projects/Projects";
 const About = () => {
   return (
     <>
@@ -34,6 +36,8 @@ const About = () => {
           </a>
         </section>
       </div>
+      <Skills />
+      <Projects />
     </>
   );
 };

@@ -1,8 +1,8 @@
 import CVimg from "../../Images/CV.png";
-
+import "./CV.scss";
 function CV() {
   return (
-    <div>
+    <div className="cv">
       <img src={CVimg} alt="CV"></img>
     </div>
   );
