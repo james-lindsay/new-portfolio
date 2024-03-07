@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.scss";
-import { Link } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import Auth from "../../Images/SS-Auth.png";
 import Reg from "../../Images/SS-Regpage.png";
 import User from "../../Images/SS-UserPage.png";
@@ -118,6 +118,7 @@ const Projects = () => {
             key={project.id}
             to={`/projects/${project.id}`}
             className="project-card"
+            id={project.id}
           >
             <h3>{project.title}</h3>
             <p>{project.description}</p>

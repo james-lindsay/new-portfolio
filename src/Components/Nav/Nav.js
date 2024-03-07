@@ -1,22 +1,20 @@
 import React from "react";
 import "./Nav.scss";
 import { Link } from "react-router-dom";
-
+import CV from "../CV/CV";
 function Nav() {
   return (
     <div className="navbar">
       <ul className="navbar-list">
         <li className="navbar-item">
-          <a href="#home">Home</a>
+          <Link to="#home">Home</Link>
         </li>
         <li className="navbar-item">
-          <a href="#Projects">Projects</a>
+          <Link to="#Projects">Projects</Link>
         </li>
-        <Link to="cv">
-          <li className="navbar-item">
-            <a href="#CV">CV</a>
-          </li>
-        </Link>
+        <li className="navbar-item">
+          <Link to="/CV">CV</Link>
+        </li>
       </ul>
     </div>
   );

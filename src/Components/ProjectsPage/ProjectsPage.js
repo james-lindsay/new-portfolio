@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 
 const ProjectPage = ({ projects }) => {
   const { id } = useParams();
-
+  console.log(useParams());
   if (!projects) {
     return <div>Could not find Project</div>;
   }

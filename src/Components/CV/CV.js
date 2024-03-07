@@ -1,10 +1,9 @@
-import React from "react";
-import cv from "../../Images/CV.png";
+import CVimg from "../../Images/CV.png";
 
 function CV() {
   return (
     <div>
-      <img src={cv} />
+      <img src={CVimg} alt="CV"></img>
     </div>
   );
 }
