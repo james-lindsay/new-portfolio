@@ -4,7 +4,7 @@ import linkedin from "../../Images/LI.png";
 import gmail from "../../Images/Gmail.jpg";
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
-const About = () => {
+const About = ({ projects }) => {
   return (
     <>
       <section className="about">
@@ -37,7 +37,7 @@ const About = () => {
         </section>
       </div>
       <Skills />
-      <Projects />
+      <Projects projects={projects} />
     </>
   );
 };

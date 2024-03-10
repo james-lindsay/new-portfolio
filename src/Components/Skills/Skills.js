@@ -23,38 +23,38 @@ function Skills() {
         animate={mainControls}
         transision={{ duration: 1, delay: 1 }}
       >
-        <div class="container">
-          <div class="skill-box">
+        <div className="container">
+          <div className="skill-box">
             <p>React</p>
           </div>
-          <div class="skill-box">
+          <div className="skill-box">
             <p>JavaScript</p>
           </div>
-          <div class="skill-box">
+          <div className="skill-box">
             <p>CSS</p>
           </div>
-          <div class="skill-box">
+          <div className="skill-box">
             <p>HTML</p>
           </div>
-          <div class="skill-box">
+          <div className="skill-box">
             <p>NodeJS</p>
           </div>
-          <div class="skill-box">
+          <div className="skill-box">
             <p>MySQL</p>
           </div>
-          <div class="skill-box">
+          <div className="skill-box">
             <p>API's</p>
           </div>
-          <div class="skill-box">
+          <div className="skill-box">
             <p>MongoDB</p>
           </div>
-          <div class="skill-box">
+          <div className="skill-box">
             <p>Firebase</p>
           </div>
-          <div class="skill-box">
+          <div className="skill-box">
             <p>Github</p>
           </div>
-          <div class="skill-box">
+          <div className="skill-box">
             <p>Teamwork</p>
           </div>
         </div>
