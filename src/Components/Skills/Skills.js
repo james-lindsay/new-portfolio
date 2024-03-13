@@ -10,7 +10,7 @@ function Skills() {
     if (isInView) {
       mainControls.start("visible");
     }
-  }, [isInView]);
+  }, [isInView, mainControls]);
   return (
     <div ref={ref}>
       <h1 className="skills__header">My Skills</h1>
